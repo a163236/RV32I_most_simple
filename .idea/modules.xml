@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rv32I_jisaku.iml" filepath="$PROJECT_DIR$/.idea/modules/rv32I_jisaku.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rv32I_jisaku-build.iml" filepath="$PROJECT_DIR$/.idea/modules/rv32I_jisaku-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RV32I_most_simple.iml" filepath="$PROJECT_DIR$/.idea/modules/RV32I_most_simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RV32I_most_simple-build.iml" filepath="$PROJECT_DIR$/.idea/modules/RV32I_most_simple-build.iml" />
     </modules>
   </component>
 </project>

@@ -1,4 +1,4 @@
-name := "rv32I_jisaku"
+name := "RV32I_most_simple"
 
 version := "0.1"
 

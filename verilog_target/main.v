@@ -7,8 +7,8 @@ module InstructionMemory(
   reg [31:0] _RAND_0;
 `endif // RANDOMIZE_MEM_INIT
   reg [31:0] memory [0:255]; // @[InstructionMemory.scala 10:19]
-  wire [31:0] memory__T_7_data; // @[InstructionMemory.scala 10:19]
-  wire [7:0] memory__T_7_addr; // @[InstructionMemory.scala 10:19]
+  wire [31:0] memory__T_12_data; // @[InstructionMemory.scala 10:19]
+  wire [7:0] memory__T_12_addr; // @[InstructionMemory.scala 10:19]
   wire [31:0] memory__T_data; // @[InstructionMemory.scala 10:19]
   wire [7:0] memory__T_addr; // @[InstructionMemory.scala 10:19]
   wire  memory__T_mask; // @[InstructionMemory.scala 10:19]
@@ -33,33 +33,73 @@ module InstructionMemory(
   wire [7:0] memory__T_5_addr; // @[InstructionMemory.scala 10:19]
   wire  memory__T_5_mask; // @[InstructionMemory.scala 10:19]
   wire  memory__T_5_en; // @[InstructionMemory.scala 10:19]
-  assign memory__T_7_addr = io_in[7:0];
-  assign memory__T_7_data = memory[memory__T_7_addr]; // @[InstructionMemory.scala 10:19]
-  assign memory__T_data = 32'hc50593;
+  wire [31:0] memory__T_6_data; // @[InstructionMemory.scala 10:19]
+  wire [7:0] memory__T_6_addr; // @[InstructionMemory.scala 10:19]
+  wire  memory__T_6_mask; // @[InstructionMemory.scala 10:19]
+  wire  memory__T_6_en; // @[InstructionMemory.scala 10:19]
+  wire [31:0] memory__T_7_data; // @[InstructionMemory.scala 10:19]
+  wire [7:0] memory__T_7_addr; // @[InstructionMemory.scala 10:19]
+  wire  memory__T_7_mask; // @[InstructionMemory.scala 10:19]
+  wire  memory__T_7_en; // @[InstructionMemory.scala 10:19]
+  wire [31:0] memory__T_8_data; // @[InstructionMemory.scala 10:19]
+  wire [7:0] memory__T_8_addr; // @[InstructionMemory.scala 10:19]
+  wire  memory__T_8_mask; // @[InstructionMemory.scala 10:19]
+  wire  memory__T_8_en; // @[InstructionMemory.scala 10:19]
+  wire [31:0] memory__T_9_data; // @[InstructionMemory.scala 10:19]
+  wire [7:0] memory__T_9_addr; // @[InstructionMemory.scala 10:19]
+  wire  memory__T_9_mask; // @[InstructionMemory.scala 10:19]
+  wire  memory__T_9_en; // @[InstructionMemory.scala 10:19]
+  wire [31:0] memory__T_10_data; // @[InstructionMemory.scala 10:19]
+  wire [7:0] memory__T_10_addr; // @[InstructionMemory.scala 10:19]
+  wire  memory__T_10_mask; // @[InstructionMemory.scala 10:19]
+  wire  memory__T_10_en; // @[InstructionMemory.scala 10:19]
+  assign memory__T_12_addr = io_in[7:0];
+  assign memory__T_12_data = memory[memory__T_12_addr]; // @[InstructionMemory.scala 10:19]
+  assign memory__T_data = 32'h93;
   assign memory__T_addr = 8'h0;
   assign memory__T_mask = 1'h1;
   assign memory__T_en = 1'h1;
-  assign memory__T_1_data = 32'h150613;
+  assign memory__T_1_data = 32'h100113;
   assign memory__T_1_addr = 8'h4;
   assign memory__T_1_mask = 1'h1;
   assign memory__T_1_en = 1'h1;
-  assign memory__T_2_data = 32'h6450713;
+  assign memory__T_2_data = 32'h100213;
   assign memory__T_2_addr = 8'h8;
   assign memory__T_2_mask = 1'h1;
   assign memory__T_2_en = 1'h1;
-  assign memory__T_3_data = 32'hc585b3;
+  assign memory__T_3_data = 32'h1400313;
   assign memory__T_3_addr = 8'hc;
   assign memory__T_3_mask = 1'h1;
   assign memory__T_3_en = 1'h1;
-  assign memory__T_4_data = 32'hfee59ee3;
+  assign memory__T_4_data = 32'h2081b3;
   assign memory__T_4_addr = 8'h10;
   assign memory__T_4_mask = 1'h1;
   assign memory__T_4_en = 1'h1;
-  assign memory__T_5_data = 32'hb705b3;
+  assign memory__T_5_data = 32'h102023;
   assign memory__T_5_addr = 8'h14;
   assign memory__T_5_mask = 1'h1;
   assign memory__T_5_en = 1'h1;
-  assign io_out = memory__T_7_data; // @[InstructionMemory.scala 43:10]
+  assign memory__T_6_data = 32'h202223;
+  assign memory__T_6_addr = 8'h18;
+  assign memory__T_6_mask = 1'h1;
+  assign memory__T_6_en = 1'h1;
+  assign memory__T_7_data = 32'h322423;
+  assign memory__T_7_addr = 8'h1c;
+  assign memory__T_7_mask = 1'h1;
+  assign memory__T_7_en = 1'h1;
+  assign memory__T_8_data = 32'h128293;
+  assign memory__T_8_addr = 8'h20;
+  assign memory__T_8_mask = 1'h1;
+  assign memory__T_8_en = 1'h1;
+  assign memory__T_9_data = 32'h40125213;
+  assign memory__T_9_addr = 8'h24;
+  assign memory__T_9_mask = 1'h1;
+  assign memory__T_9_en = 1'h1;
+  assign memory__T_10_data = 32'hfe629ee3;
+  assign memory__T_10_addr = 8'h28;
+  assign memory__T_10_mask = 1'h1;
+  assign memory__T_10_en = 1'h1;
+  assign io_out = memory__T_12_data; // @[InstructionMemory.scala 49:10]
 `ifdef RANDOMIZE_GARBAGE_ASSIGN
 `define RANDOMIZE
 `endif
@@ -124,6 +164,21 @@ end // initial
     if(memory__T_5_en & memory__T_5_mask) begin
       memory[memory__T_5_addr] <= memory__T_5_data; // @[InstructionMemory.scala 10:19]
     end
+    if(memory__T_6_en & memory__T_6_mask) begin
+      memory[memory__T_6_addr] <= memory__T_6_data; // @[InstructionMemory.scala 10:19]
+    end
+    if(memory__T_7_en & memory__T_7_mask) begin
+      memory[memory__T_7_addr] <= memory__T_7_data; // @[InstructionMemory.scala 10:19]
+    end
+    if(memory__T_8_en & memory__T_8_mask) begin
+      memory[memory__T_8_addr] <= memory__T_8_data; // @[InstructionMemory.scala 10:19]
+    end
+    if(memory__T_9_en & memory__T_9_mask) begin
+      memory[memory__T_9_addr] <= memory__T_9_data; // @[InstructionMemory.scala 10:19]
+    end
+    if(memory__T_10_en & memory__T_10_mask) begin
+      memory[memory__T_10_addr] <= memory__T_10_data; // @[InstructionMemory.scala 10:19]
+    end
   end
 endmodule
 module Reg(
@@ -140,50 +195,26 @@ module Reg(
   reg [31:0] _RAND_0;
 `endif // RANDOMIZE_MEM_INIT
   reg [31:0] regfile [0:31]; // @[Reg.scala 15:20]
-  wire [31:0] regfile__T_4_data; // @[Reg.scala 15:20]
-  wire [4:0] regfile__T_4_addr; // @[Reg.scala 15:20]
-  wire [31:0] regfile__T_6_data; // @[Reg.scala 15:20]
-  wire [4:0] regfile__T_6_addr; // @[Reg.scala 15:20]
-  wire [31:0] regfile__T_data; // @[Reg.scala 15:20]
-  wire [4:0] regfile__T_addr; // @[Reg.scala 15:20]
-  wire  regfile__T_mask; // @[Reg.scala 15:20]
-  wire  regfile__T_en; // @[Reg.scala 15:20]
   wire [31:0] regfile__T_1_data; // @[Reg.scala 15:20]
   wire [4:0] regfile__T_1_addr; // @[Reg.scala 15:20]
-  wire  regfile__T_1_mask; // @[Reg.scala 15:20]
-  wire  regfile__T_1_en; // @[Reg.scala 15:20]
-  wire [31:0] regfile__T_2_data; // @[Reg.scala 15:20]
-  wire [4:0] regfile__T_2_addr; // @[Reg.scala 15:20]
-  wire  regfile__T_2_mask; // @[Reg.scala 15:20]
-  wire  regfile__T_2_en; // @[Reg.scala 15:20]
-  wire [31:0] regfile__T_11_data; // @[Reg.scala 15:20]
-  wire [4:0] regfile__T_11_addr; // @[Reg.scala 15:20]
-  wire  regfile__T_11_mask; // @[Reg.scala 15:20]
-  wire  regfile__T_11_en; // @[Reg.scala 15:20]
-  wire  _T_7 = io_RegWEn == 32'h1; // @[Reg.scala 25:17]
-  wire  _T_8 = io_WriteData != 32'h0; // @[Reg.scala 25:42]
-  assign regfile__T_4_addr = io_rs1[4:0];
-  assign regfile__T_4_data = regfile[regfile__T_4_addr]; // @[Reg.scala 15:20]
-  assign regfile__T_6_addr = io_rs2[4:0];
-  assign regfile__T_6_data = regfile[regfile__T_6_addr]; // @[Reg.scala 15:20]
-  assign regfile__T_data = 32'h1;
-  assign regfile__T_addr = 5'h0;
-  assign regfile__T_mask = 1'h1;
-  assign regfile__T_en = 1'h1;
-  assign regfile__T_1_data = 32'h1;
-  assign regfile__T_1_addr = 5'h1;
-  assign regfile__T_1_mask = 1'h1;
-  assign regfile__T_1_en = 1'h1;
-  assign regfile__T_2_data = 32'h1;
-  assign regfile__T_2_addr = 5'h2;
-  assign regfile__T_2_mask = 1'h1;
-  assign regfile__T_2_en = 1'h1;
-  assign regfile__T_11_data = io_WriteData;
-  assign regfile__T_11_addr = io_rd[4:0];
-  assign regfile__T_11_mask = 1'h1;
-  assign regfile__T_11_en = _T_7 & _T_8;
-  assign io_out_data1 = regfile__T_4_data; // @[Reg.scala 22:16]
-  assign io_out_data2 = regfile__T_6_data; // @[Reg.scala 23:16]
+  wire [31:0] regfile__T_3_data; // @[Reg.scala 15:20]
+  wire [4:0] regfile__T_3_addr; // @[Reg.scala 15:20]
+  wire [31:0] regfile__T_8_data; // @[Reg.scala 15:20]
+  wire [4:0] regfile__T_8_addr; // @[Reg.scala 15:20]
+  wire  regfile__T_8_mask; // @[Reg.scala 15:20]
+  wire  regfile__T_8_en; // @[Reg.scala 15:20]
+  wire  _T_4 = io_RegWEn == 32'h1; // @[Reg.scala 25:17]
+  wire  _T_5 = io_WriteData != 32'h0; // @[Reg.scala 25:42]
+  assign regfile__T_1_addr = io_rs1[4:0];
+  assign regfile__T_1_data = regfile[regfile__T_1_addr]; // @[Reg.scala 15:20]
+  assign regfile__T_3_addr = io_rs2[4:0];
+  assign regfile__T_3_data = regfile[regfile__T_3_addr]; // @[Reg.scala 15:20]
+  assign regfile__T_8_data = io_WriteData;
+  assign regfile__T_8_addr = io_rd[4:0];
+  assign regfile__T_8_mask = 1'h1;
+  assign regfile__T_8_en = _T_4 & _T_5;
+  assign io_out_data1 = regfile__T_1_data; // @[Reg.scala 22:16]
+  assign io_out_data2 = regfile__T_3_data; // @[Reg.scala 23:16]
 `ifdef RANDOMIZE_GARBAGE_ASSIGN
 `define RANDOMIZE
 `endif
@@ -230,17 +261,8 @@ end // initial
 `endif
 `endif // SYNTHESIS
   always @(posedge clock) begin
-    if(regfile__T_en & regfile__T_mask) begin
-      regfile[regfile__T_addr] <= regfile__T_data; // @[Reg.scala 15:20]
-    end
-    if(regfile__T_1_en & regfile__T_1_mask) begin
-      regfile[regfile__T_1_addr] <= regfile__T_1_data; // @[Reg.scala 15:20]
-    end
-    if(regfile__T_2_en & regfile__T_2_mask) begin
-      regfile[regfile__T_2_addr] <= regfile__T_2_data; // @[Reg.scala 15:20]
-    end
-    if(regfile__T_11_en & regfile__T_11_mask) begin
-      regfile[regfile__T_11_addr] <= regfile__T_11_data; // @[Reg.scala 15:20]
+    if(regfile__T_8_en & regfile__T_8_mask) begin
+      regfile[regfile__T_8_addr] <= regfile__T_8_data; // @[Reg.scala 15:20]
     end
   end
 endmodule
