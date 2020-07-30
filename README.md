@@ -9,8 +9,6 @@ RV32Iのすごく簡単なシングルサイクルデータパス。
 
 Chisel
 
-# 実行方法
-
-## Verilogの生成
+# Verilogの生成
 
 src/main/scala/Single_Cycle_Datapath/Main.scalaを実行
